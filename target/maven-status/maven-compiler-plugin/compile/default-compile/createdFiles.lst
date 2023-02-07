@@ -1,6 +1,8 @@
-eu\cdinvest\jwtcheck\JwtReturnCode.class
 eu\cdinvest\jwtcheck\JwtCheck.class
 eu\cdinvest\jwtcheck\HelloWorld.class
-eu\cdinvest\jwtcheck\JwtCheckServer$1.class
-eu\cdinvest\jwtcheck\JwtCheckServer$Router.class
 eu\cdinvest\jwtcheck\JwtCheckServer.class
+eu\cdinvest\jwtcheck\JwtReturnCode.class
+eu\cdinvest\jwtcheck\JwtCheckServer$CheckJwtRouter.class
+eu\cdinvest\jwtcheck\JwtCheckServer$1.class
+eu\cdinvest\jwtcheck\JwtLogger.class
+eu\cdinvest\jwtcheck\JwtCheckServer$GetJwkRouter.class

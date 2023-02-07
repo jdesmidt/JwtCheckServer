@@ -31,7 +31,9 @@ public class JwtCheck {
 
             Properties prop = new Properties();
             prop.load(input);
-            jwkUrl = prop.getProperty("jwk");
+            jwkUrl = prop.getProperty("jwkurl");
+
+			JwtLogger.add("JWK url = " + jwkUrl);
 
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -60,6 +62,7 @@ public class JwtCheck {
 			algorithm.verify(jwt);
 			return JwtReturnCode.JWT_VALID;
 		} catch (Exception e) {
+			JwtLogger.add("Java exception : " + e.getMessage());
 			return JwtReturnCode.JWT_INVALID;
 		}
 	}

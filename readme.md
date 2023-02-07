@@ -17,3 +17,4 @@ POST Request
 ## History
 - 1.00 - 2022-12-26 - First version
 - 1.10 - 2023-02-02 - POST request implemented to support larger keys
+- 1.20 - 2023-02-07 - Added logging + extra request /getjwk to use lokal jwk file
